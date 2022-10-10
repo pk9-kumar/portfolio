@@ -1,0 +1,148 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <title>Pradeep Kumar- Developer</title>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'style.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm nav-bg">
+            <div class="container">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button"
+               data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse menu-align" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link cl-blue" href="{% url 'comming_soon' %}">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cl-blue" href="#contactid">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cl-blue" href="https://www.linkedin.com/in/pradeep-kumar-419b34142/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:22px"></i></a>
+                  </li>    
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container-fluid profile comman-margin">
+                <div class="row">
+                  <div class="col-sm-5 offset-md-1 text-white image-section">
+                    <h3 class="animate__animated animate__fadeInLeft name">Pradeep Kumar</h3>
+                    <img src="{% static 'pic/me14.png' %}" class="profile-image">
+                  </div>
+                  <div class="col-sm-6  welcome-text p-5 ">
+                    <p class="landing-des animate__animated animate__fadeInLeft">Hey, I’m a web  devel­op­er from Delhi, India .</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid comman-margin">
+                <div class="row" style="height: 450px">
+                  <div class="col-sm-6" style="background-color: #fff">
+                    <p class="text-about text-center">About Me</p>
+                    <p class="text-center arrow"><i class="fa fa-arrow-down" aria-hidden="true"></i></p>
+                  </div>
+                  <div class="col-sm-6 p-5" style="background-color: #fff">
+                    <p style="line-height: 2.0;">A Python developer with 4 years of experience in Django development, 
+                      adaptation, and maintenance. Seeking to
+                      use extensive knowledge and web development to achieve 
+                      great heights in the competitive technical field by
+                      applying my knowledge to a fruitful innovative manner.
+                       To be appreciated as a responsible and sincere person.</p>
+                    <p>I am also working as a freelancer. if you want to work with me with the help of technology
+                       like python django DRF html css javascript postgresql mysql fell free to contact me.</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-project">
+            <div class="container-fluid comman-margin">
+                <div class="row profile p-4" >
+                  <p class="text-center"><b>As a devel­op­er my last three
+                     project which I had worked on.</b></p>
+                  <div class="col-sm-4">
+                    <div class="card" style="box-shadow: 2px 2px 2px 2px #7aaed8;height: 380px; ">
+                      <img src="{% static 'pic/empoweru.PNG'%}" class="card-img-top" alt="empoweru">
+                      <div class="card-body">
+                        <h5 class="card-title">EMPOWERU</h5>
+                        <h6 class="card-text" style="line-height: 1.5"> Product EmpowerU is an Innovative, 
+                          Education-centric Solution that improves the Quality of Education by redefining the ways educational institutions are managed. </h6>
+                        <a href="http://tripura.empoweru.in/" class="decoration" target="_blank">EMPOWERU</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card" style="box-shadow: 2px 2px 2px 2px #7aaed8; height: 380px;">
+                      <img src="{% static 'pic/instaastro.PNG'%}" class="card-img-top" alt="instaastro">
+                      <div class="card-body">
+                        <h5 class="card-title">INSTAASTRO</h5>
+                        <h6 class="card-text" style="line-height: 1.5">At InstaAstro, we try our best to connect you with the most famous qualified and reputed Vedic astrologers from India. </h6>
+                        </br>
+                        <a href="https://www.instaastro.com/" class="decoration" target="_blank">INSTAASTRO</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card" style="box-shadow: 2px 2px 2px 2px #7aaed8; height: 380px;">
+                      <img src="{% static 'pic/prism.PNG' %}" class="card-img-top" alt="prism">
+                      <div class="card-body">
+                        <h5 class="card-title">PRISM</h5>
+                        <h6 class="card-text" style="line-height: 2">Find, review and hire the best CRE vendors faster with Prism Bid Management.</h6>
+                        <a href="https://connect.buildingengines.com/login" class="decoration" target="_blank">PRISM</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid comman-margin" id="contactid">
+                <div class="row" >
+                  <div class="col-sm-6"  style="background-color: #fff">
+                    <p class="text-about text-center">Contact </p>
+                    <p class="text-center arrow"><i class="fa fa-arrow-down" aria-hidden="true"></i></p>
+                  </div>
+                  <div class="col-sm-6  text-center contact-info">
+                    <p><b>Call Me:+91-9170860116</b></p>
+                    <p><b>Email Me: contactpradeepkumar9@gmail.com</b></p>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid comman-margin">
+                <div class="row profile">
+                  <div class="col-sm-12 footer-style">
+                    <p>Copyright ©pradeep kumar 2022 -V.0.1</p>
+                    <p style="font-size: 30px"><a href="https://github.com/P-kumar9?tab=overview&from=2022-08-01&to=2022-08-31" target="_blank">
+                      <i class="fa fa-github" aria-hidden="true"></i></a></p>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
